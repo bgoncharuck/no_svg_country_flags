@@ -1,0 +1,14 @@
+name: no_svg_country_flags
+description: A Flutter package to show a flag icon from a ISO country code without dependency on SVG.
+version: 1.0.0
+homepage: https://github.com/bgoncharuck/no_svg_country_flags
+repository: https://github.com/bgoncharuck/no_svg_country_flags
+license: LGPL v2/v3
+
+environment:
+  # >= 2.12.0 (null-safety) for wider backwards compatibility
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter

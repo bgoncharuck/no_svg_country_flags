@@ -1,0 +1,68 @@
+// ignore_for_file: non_constant_identifier_names, camel_case_types, unused_import
+import 'dart:ui' as ui;
+import 'package:flutter/material.dart';
+
+class FoFlagPainter extends CustomPainter {
+const FoFlagPainter();
+
+    @override
+    void paint(Canvas canvas, Size size) {
+            
+Path path_0 = Path();
+    path_0.moveTo(size.width*-0.1218750,size.height*0.06666667);
+    path_0.lineTo(size.width*0.9154687,size.height*0.06666667);
+    path_0.lineTo(size.width*0.9154687,size.height*1.066667);
+    path_0.lineTo(size.width*-0.1218750,size.height*1.066667);
+    path_0.close();
+
+Paint paint_0_fill = Paint()..style=PaintingStyle.fill;
+paint_0_fill.color = const Color(0xffffffff);
+canvas.drawPath(path_0,paint_0_fill);
+
+Path path_1 = Path();
+    path_1.moveTo(size.width*-0.1187500,size.height*0.4556250);
+    path_1.lineTo(size.width*0.1717188,size.height*0.4556250);
+    path_1.lineTo(size.width*0.1717188,size.height*0.06666667);
+    path_1.lineTo(size.width*0.3375000,size.height*0.06666667);
+    path_1.lineTo(size.width*0.3375000,size.height*0.4556250);
+    path_1.lineTo(size.width*0.9184375,size.height*0.4556250);
+    path_1.lineTo(size.width*0.9184375,size.height*0.6777083);
+    path_1.lineTo(size.width*0.3375000,size.height*0.6777083);
+    path_1.lineTo(size.width*0.3375000,size.height*1.066667);
+    path_1.lineTo(size.width*0.1717188,size.height*1.066667);
+    path_1.lineTo(size.width*0.1717188,size.height*0.6777083);
+    path_1.lineTo(size.width*-0.1189062,size.height*0.6777083);
+    path_1.lineTo(size.width*-0.1189062,size.height*0.4556250);
+    path_1.close();
+
+Paint paint_1_fill = Paint()..style=PaintingStyle.fill;
+paint_1_fill.color = const Color(0xff003897);
+canvas.drawPath(path_1,paint_1_fill);
+
+Path path_2 = Path();
+    path_2.moveTo(size.width*-0.1187500,size.height*0.5110417);
+    path_2.lineTo(size.width*0.2131250,size.height*0.5110417);
+    path_2.lineTo(size.width*0.2131250,size.height*0.06666667);
+    path_2.lineTo(size.width*0.2960937,size.height*0.06666667);
+    path_2.lineTo(size.width*0.2960937,size.height*0.5110417);
+    path_2.lineTo(size.width*0.9187500,size.height*0.5110417);
+    path_2.lineTo(size.width*0.9187500,size.height*0.6222917);
+    path_2.lineTo(size.width*0.2960937,size.height*0.6222917);
+    path_2.lineTo(size.width*0.2960937,size.height*1.066667);
+    path_2.lineTo(size.width*0.2132813,size.height*1.066667);
+    path_2.lineTo(size.width*0.2132813,size.height*0.6222917);
+    path_2.lineTo(size.width*-0.1187500,size.height*0.6222917);
+    path_2.lineTo(size.width*-0.1187500,size.height*0.5110417);
+    path_2.close();
+
+Paint paint_2_fill = Paint()..style=PaintingStyle.fill;
+paint_2_fill.color = const Color(0xffd72828);
+canvas.drawPath(path_2,paint_2_fill);
+
+}
+
+@override
+bool shouldRepaint(covariant CustomPainter oldDelegate) {
+    return false;
+}
+}
